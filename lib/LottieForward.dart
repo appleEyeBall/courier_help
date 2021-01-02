@@ -1,6 +1,5 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter/services.dart';
 import 'package:lottie/lottie.dart';
 
 class LottieForward extends StatefulWidget {
@@ -21,7 +20,7 @@ class _LottiePageState extends State<LottieForward> {
       child: Column(
         mainAxisAlignment: MainAxisAlignment.center,
         children: [
-          Lottie.asset('assets/forward.json',
+          Lottie.asset('assets/box_open.json',
                 repeat: true, reverse: false, animate: true)
         ],
       ),
